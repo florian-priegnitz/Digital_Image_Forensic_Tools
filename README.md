@@ -4,7 +4,7 @@ Dokumentation von Tools, welche im Rahmen des Studiums im Modul "Forensische Ana
 ## Error Level Analysis (ELA) Tool zur Bildforensik
 
 ### Beschreibung
-Dieses Repository enthält ein Python-Skript, das die Error Level Analysis (ELA) Methode zur Erkennung möglicher Bildmanipulationen implementiert. ELA ist ein gängiges Verfahren in der digitalen Bildforensik, das darauf abzielt, inkonsistente Kompressionsstufen in einem Bild zu identifizieren.
+Die Error Level Analysis (ELA) Methode ist eine Möglichkeit, zur Erkennung möglicher Bildmanipulationen wie "Copy Move". ELA ist ein gängiges Verfahren in der digitalen Bildforensik, das darauf abzielt, inkonsistente Kompressionsstufen in einem Bild zu identifizieren.
 
 ### Funktionsweise
 Die ELA-Methode basiert auf der Wiederholung des JPEG-Kompressionsprozesses auf einem Bild. Bei jedem Kompressionsdurchlauf gehen bestimmte Bildinformationen verloren und es entstehen charakteristische Artefakte. Wenn ein Teil eines Bildes nachträglich bearbeitet wurde, zeigt dieser Bereich in der Regel eine andere Kompressionsgeschichte und reagiert somit anders auf weitere Kompression.
