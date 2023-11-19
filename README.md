@@ -17,7 +17,7 @@ Das Skript führt folgende Schritte durch:
 3. **Durchführung und Speicherung der Ergebnisse**: Das Tool führt die ELA für verschiedene Qualitätsstufen durch und speichert die resultierenden Bilder in einem definierten Ordner.
 
 ### Installation und Abhängigkeiten
-Um das Skript zu verwenden, benötigen Sie:
+Um das Skript zu verwenden, muss folgendes installiert sein:
 - Python 3.x
 - OpenCV-Python (`cv2`): Für Bildverarbeitungsaufgaben
 - Pillow (`PIL`): Für grundlegende Bildoperationen
@@ -29,9 +29,9 @@ pip install opencv-python pillow tqdm
 ```
 
 ### Verwendung
-1. Klonen Sie das Repository oder laden Sie das Skript herunter.
-2. Führen Sie das Skript in einer Python-Umgebung aus.
-3. Geben Sie den Pfad zum zu analysierenden Bild an, wenn dazu aufgefordert wird.
+1. Klone das Repository oder lade das Skript herunter.
+2. Führe das Skript in einer Python-Umgebung aus.
+3. Gib den Pfad zum zu analysierenden Bild an, wenn du dazu aufgefordert wirst.
 
 Das Skript erstellt einen neuen Ordner auf dem Desktop und speichert die Analyseergebnisse dort ab.
 
